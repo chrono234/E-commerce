@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset/reset.css">
+    <link rel="stylesheet" href="./css/reset/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"/>
+    <title>E-comerse</title>
+  </head>
+  <body class="container">
+    <header class="encabezado">
+        <div class="encabezado__logo__container">
+          <div class="encabezado__logo"><img class="encabezado__logo__img" src="/images/logo de alura mediano.png" alt="image of gamepad"></div>
+          <div class="encabezado__logo titulo__1"><h3>Alura</h3></div>
+          <div class="encabezado__logo titulo__2"><h3>Geek</h3></div>
+        </div>
+        <div class="box"><h2 class="box__titulo">Menú Administrador</h2></div>
+        <div class="search">
+          <a href="#"><img class="lupa" src="/images/lupa-img.png" alt="search icon image"></a>
+        </div>
+    </header>
+    <section class="form">
+      <div class="form__title__container">
+        <h2 class="form__title">Agregar nuevo producto</h2>
+      </div>
+      <form class="form__container">
+        <div  class="input__container">
+          <input class="input" type="url">
+          <label for="url" class="input__label" >URL de la imagen</label>
+        </div>
+        <div  class="input__container">
+          <input class="input" type="text">
+          <label for="text" class="input__label">Categoría</label>
+        </div>
+        <div  class="input__container">
+          <input class="input" type="text">
+          <label for="text" class="input__label">Nombre del Producto</label>
+        </div>
+        <div class="textarea__container">
+          <textarea class="input__textarea" name="textarea"  id="textarea" cols="30" rows="10"></textarea>
+          <label class="label__textarea" for="textarea">Descripcion del producto</label>
+        </div>
+        <div class="btn__container">
+          <button type="submit" class="form__btn">Agregar producto</button>
+        </div>
+      </form>
+    </section>
+      <section class="about">
+        <div class="about__title__container">
+          <div class="about__logo"><img class="about__logo__img" src="/images/logo de alura mediano.png" alt="image of Gamepad"></div>
+          <div class="about__logo titulo__1"><h3>Alura</h3></div>
+          <div class="about__logo titulo__2"><h3>Geek</h3></div>
+        </div>
+        <div class="about__content__container">
+          <div class="about__content">Quienes Somos</div>
+          <div class="about__content">Política de privacidad</div>
+          <div class="about__content">Programa de fidelidad</div>
+          <div class="about__content">Nuestras tiendas</div>
+          <div class="about__content">Quiero ser franquisiado</div>
+          <div class="about__content">Anúncie aquí</div> 
+        </div>
+      </section>
+      <fieldset class="form">
+        <div class="form__title__container">
+          <h2 class="form__title">Hable con nosotros</h2>
+        </div>
+        <form class="form__container">
+          <div  class="input__container">
+            <input class="input" type="text">
+            <label class="input__label" for="text" >Nombre</label>
+          </div>
+          <div class="textarea__container">
+            <textarea class="input__textarea" name="textarea"  id="textarea" cols="30" rows="10"></textarea>
+            <label class="label__textarea" for="textarea">Escribe tu mensaje</label>
+          </div>
+          <div class="btn__container">
+            <button type="submit" class="form__btn btn__submit">Enviar mansaje</button>
+          </div>
+        </form>
+      </fieldset>
+      <section class="footer">
+        <div class="footer__rodape">
+          <p>Developed by Jairo Orozco</p>
+          <p> 2022</p>
+        </div>
+      </section>
+      <script src="/modules/index.js"></script>
+    </body>
+    </html>
+    
