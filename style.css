@@ -14,6 +14,7 @@
   justify-content: space-between;
   background: #ffffff;
   height: 70px;
+  line-height: 1.5rem;
 }
 
 .encabezado__logo__container {
@@ -24,7 +25,7 @@
 .encabezado__logo__img {
   height: 1.3rem;
   width: 1.5rem;
-  margin-left: 1rem;
+  margin: 0.50rem 0 0 1rem;
 }
 
 .encabezado__logo.titulo__1 {
@@ -32,13 +33,11 @@
   color: #2a7ae4;
   font-weight: 600;
   font-size: 1rem;
-  margin-bottom: 0.2rem;
 }
 
 .encabezado__logo.titulo__2 {
   font-weight: 500;
   font-size: 1rem;
-  margin-bottom: 0.2rem;
 }
 
 .input__search__container {
@@ -64,7 +63,7 @@
 .lupa {
   height: 1rem;
   width: 1rem;
-  margin-right: 1rem;
+  margin: 0.50rem 1rem 0 0;
 }
 
 .form {
@@ -260,7 +259,7 @@
     align-self: center;
     justify-content: center;
     height: 2rem;
-    padding-top: 0.35rem;
+    padding-top: 0.1rem;
     margin: 0;
   }
   
