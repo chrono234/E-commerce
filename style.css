@@ -203,6 +203,7 @@
 
   .encabezado__container {
     display: flex;
+    align-items: center;
   }
 
   .input__search__container {
