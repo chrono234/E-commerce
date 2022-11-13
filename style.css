@@ -190,6 +190,8 @@
   margin-top: 0.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
@@ -208,6 +210,10 @@
     margin-left: 3rem;
   }
 
+  .encabezado__logo.titulo__1, .encabezado__logo.titulo__2{
+    font-size: 1.1rem;
+  }
+
   .encabezado__logo.titulo__2 {
     margin-left: 0.1rem;
   }
@@ -219,6 +225,7 @@
     height: 2rem;
     width: 14rem;
     position: relative;
+    padding: 0.1rem 0 0.2rem 0.5rem;
   }
 
   .input__search::placeholder {
@@ -255,21 +262,25 @@
     padding-top: 0.35rem;
     margin: 0;
   }
-
+  
   .lupa {
     display: none;
+  }
+  
+  .form__title{
+    font-size: 1.2rem;
   }
 
   .contacto__container {
     display: flex;
-    display: none;
-    position: relative;
     margin: 1rem 0 0 0;
-    background: #eaf2fd;
+    width: calc(100vw - 1rem);
+    overflow: hidden;
   }
 
   .about {
-    margin-left: 1rem;
+    display: inline-block;
+    margin: 1rem;
   }
 
   .about__title__container {
@@ -294,17 +305,15 @@
   }
 
   .form__contacto__container {
-    width: calc(100vw - 15rem);
+    margin: 0 0 4rem 0;
   }
-
   .form__title.contact {
-    margin: 3rem 0 0.5rem 0;
-    font-size: 1rem;
-  }
+    margin: 2.7rem 0 0.5rem 0;
+  } 
 
   .input__container.contact,
   .textarea__container.contact {
-    width: calc(100vw - 14.8rem);
+    width: calc(100vw - 13rem);
   }
 
   .input__textarea.contact {
