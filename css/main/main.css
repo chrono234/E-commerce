@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  background: darkseagreen;
+  font-family: "Raleway", "sans-serif";
+  width: 100%;
+}

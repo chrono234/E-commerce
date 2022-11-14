@@ -1,0 +1,155 @@
+.encabezado {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  height: 70px;
+  line-height: 1.5rem;
+}
+
+.encabezado__logo__container {
+  display: flex;
+  align-items: center;
+}
+
+.encabezado__logo__img {
+  height: 1.3rem;
+  width: 1.5rem;
+  margin: 0.5rem 0 0 1rem;
+}
+
+.encabezado__logo.titulo__1 {
+  margin-left: 0.2rem;
+  color: #2a7ae4;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.encabezado__logo.titulo__2 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.input__search__container {
+  display: none;
+}
+
+.box {
+  align-items: center;
+  border: 2px solid #2a7ae4;
+  color: #2a7ae4;
+  display: flex;
+  height: 2.4rem;
+  font-size: 0.9rem;
+  overflow: auto;
+}
+
+.box__titulo {
+  margin: 0 1rem 0 1rem;
+  color: #2a7ae4;
+  white-space: nowrap;
+}
+
+.lupa {
+  height: 1rem;
+  width: 1rem;
+  margin: 0.5rem 1rem 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .encabezado {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .encabezado__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .input__search__container {
+    display: flex;
+    margin-left: 3rem;
+  }
+
+  .encabezado__logo.titulo__1,
+  .encabezado__logo.titulo__2 {
+    font-size: 1.1rem;
+  }
+
+  .encabezado__logo.titulo__2 {
+    margin-left: 0.1rem;
+  }
+
+  .input__search {
+    border: 1px none;
+    border-radius: 1rem;
+    background: #f5f5f5;
+    height: 2rem;
+    width: 14rem;
+    position: relative;
+    padding: 0.1rem 0 0.2rem 0.5rem;
+  }
+
+  .input__search::placeholder {
+    padding: 0.1rem 0 0.7rem 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.3rem 0 0 0;
+    position: absolute;
+  }
+
+  .label__img {
+    position: absolute;
+    margin: 0.5rem 0 0 12rem;
+  }
+
+  .box {
+    margin-right: 1rem;
+    border: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 1rem;
+    height: 2rem;
+    position: relative;
+    width: 50rem;
+  }
+
+  .box__titulo {
+    border: #2a7ae4 solid;
+    width: 11rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 2rem;
+    padding-top: 0.1rem;
+    margin: 0;
+  }
+
+  .lupa {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .encabezado__container {
+    margin-left: 6rem;
+  }
+
+  .input__search__container {
+    margin-left: 1.5rem;
+  }
+
+  .input__search {
+    width: 17rem;
+  }
+
+  .label__img {
+    padding-left: 3rem;
+  }
+
+  .box {
+    margin-right: 6rem;
+  }
+}

@@ -1,0 +1,25 @@
+.footer__rodape {
+  color: #464646;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  height: 70px;
+}
+
+.footer__content.item__1 {
+  margin: 0.5rem 0 0rem 0;
+}
+
+.footer__content.item__2 {
+  margin: 0 0 0.5rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__rodape {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
