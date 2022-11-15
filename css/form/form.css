@@ -58,7 +58,7 @@
   height: 1rem;
 }
 
-.form__btn {
+.generic__btn {
   color: #ffffff;
   background: #2a7ae4;
   border: none;
@@ -94,7 +94,7 @@
     width: 30rem;
   }
 
-  .form__btn {
+  .generic__btn {
     width: 30rem;
   }
 }

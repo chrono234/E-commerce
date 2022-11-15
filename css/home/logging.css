@@ -27,7 +27,7 @@
   min-width: calc(55% - 2rem);
 }
 
-.form__btn {
+.generic__btn {
   width: 7rem;
   margin-top: 0.2rem;
 }
@@ -51,7 +51,7 @@
     margin-left: 5rem;
   }
 
-  .form__btn {
+  .generic__btn {
     width: 15rem;
     margin-top: 0.2rem;
   }

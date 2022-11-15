@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/about/about.css">
     <link rel="stylesheet" href="./css/form-contact/form-contact.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/home/logging.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"/>
@@ -38,108 +38,30 @@
             <label class="label__img" for="img"><img class="img__lupa" src="/images/lupa-search-bar.png" alt=""></label>
           </div>
       </div>
-        <div class="box"> 
-          <a href="#"><h2 class="box__titulo">Loggin</h2></a>
+        <div class="box main"> 
+          <a href="#"><h2 class="box__titulo">Menú Administrador</h2></a>
         </div>  
         <div class="search">
           <a href="#"><img class="lupa" src="/images/lupa-img.png" alt="search icon image"></a>
         </div>
-    </header> 
-    <section class="banner">
-      <div class="banner__information">
-        <h1>Febrero Promocional</h1>
-        <p>Productos seleccionados con 33% de descuento</p>
-        <button class="generic__btn btn__generic">Ver Consolas</button>
+    </header>
+    <section class="form">
+      <div class="form__title__container">
+        <h2 class="form__title main">Iniciar sesión</h2>
       </div>
-    </section>
-    <section class="products">
-      <div class="productos__titulo">
-        <h3>Star Wars</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
-      </div>
-      <div class="producto">
-        <img src="./images/1.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/2.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/3.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/4.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="titulo">
-        <h3>Consolas</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
-      </div>
-      <div class="producto">
-        <img src="./images/5.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/6.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/7.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/8.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="titulo">
-        <h3>Diversos</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
-      </div>
-      <div class="producto">
-        <img src="./images/9.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p></p>
-      </div>
-      <div class="producto">
-        <img src="./images/10.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/11.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/12.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
+      <form class="form__container main">
+        <div  class="input__container main">
+          <input class="input main__a" type="url">
+          <label for="url" class="input__label" >Escriba su correo electronico</label>
+        </div>
+        <div  class="input__container main">
+          <input class="input main__b" type="text">
+          <label for="text" class="input__label">Escriba su contraseña</label>
+        </div>
+        <div class="btn__container">
+          <button type="submit" class="generic__btn">Entrar</button>
+        </div>
+      </form>
     </section>
     <section class="contact">
       <div class="contacto__container">
@@ -189,4 +111,3 @@
       <script src="/modules/index.js"></script>
   </body>
     </html>
-    
