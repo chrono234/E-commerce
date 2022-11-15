@@ -1,0 +1,60 @@
+.box.main {
+  display: none;
+}
+
+.form{
+  margin: 1rem 0 1rem 0;
+}
+
+.form__title.main {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem 0; 
+  font-size: 18px;
+} 
+
+.form__container.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.input__container.main,
+.textarea__container.main   {
+  display: inline-block;
+  width: 15rem;
+  min-width: calc(55vw - 2rem);
+  min-width: calc(55% - 2rem);
+}
+
+.form__btn {
+  width: 7rem;
+  margin-top: 0.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    margin: 4rem 0 4rem 0;
+  }
+
+  .form__title__container{
+    margin: 0;
+  }
+
+  .contacto__container{
+    margin: 5rem 0 0rem 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .encabezado__container{
+    margin-left: 5rem;
+  }
+
+  .form__btn {
+    width: 15rem;
+    margin-top: 0.2rem;
+  }
+
+}
+

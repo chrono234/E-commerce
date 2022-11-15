@@ -26,7 +26,7 @@
   }
 
   .input__textarea.contact {
-    height: 5rem;
+    height: 4.5rem;
   }
 }
 
@@ -38,7 +38,6 @@
 
   .form__title__container.contact {
     justify-content: start;
-    height: 4.5rem;
     display: inline-block;
     margin: 0;
   }
