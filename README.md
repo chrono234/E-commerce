@@ -1,4 +1,4 @@
-# E-comerse 
+## E-comerse 
 
 Created with HTML, CSS, and javascript.
 ## Acknowledgements
@@ -18,3 +18,9 @@ Created with HTML, CSS, and javascript.
 [Documentation](https://developer.mozilla.org/es/docs/Web/CSS/overflow)
 
 I resolved the issue of the overflow in the form with this documentation.
+
+## Feedback
+
+If you have any feedback, please reach out to us at jaiorozco@hotmail.com
+
+
