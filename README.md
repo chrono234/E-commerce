@@ -10,7 +10,7 @@ Created with HTML, CSS, and javascript.
 
 ## Authors
 
-- [chrono234](https://github.com/chrono234/E-comerse)
+- [chrono234](https://github.com/chrono234)
 
 
 ## Documentation
