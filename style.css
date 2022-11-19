@@ -1,6 +1,96 @@
-.banner {
-  background-image: url(../E-comerse/images/banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 45%;
+.container.items{
+  display: grid;
+  grid-template-areas:
+  "encabezado"
+  "hero" 
+  "product"
+  "contact"
+  "footer" ;
+  grid-template-columns: auto;
+  grid-template-rows: 70px 100vw auto; /**header 70px, 100vw para el alto, footer auto**/
+}
+
+.encabezado.items{
+  grid-area: encabezado;
+}
+
+  .hero__image{
+    align-items: flex-end;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.204)), url("./images/Hero.png") center / cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.hero__text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  margin-left: 1rem;
+}
+
+.hero__title{
+  margin: 1rem 0 0.5rem 0;
+}
+
+.hero__information{
+  margin: 0 0 0.4rem 0;
+}
+
+  .product__container{
+  grid-area: product;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows:  auto;
+  justify-items: center;
+  gap: 0.5rem;
+  overflow: hidden;
+  margin: 0 1rem 0 1rem;
+}
+
+.product__image{
+  grid-area: product-imge;
+  width: 100%;
+}
+
+.products__titulo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+.products__all{
+  display: flex;
+  align-items: center;
+}
+
+
+.products__titulo h3{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.products__titulo h2{
+  color: #2a7ae4;
+  font-weight: 500;
+}
+
+.products__btn{
+  background: none;
+  border:none;
+}
+
+.flecha{
+  height: 1rem;
+  margin-top: 0.2rem;
+}
+
+.contact.items{
+  background: darkgoldenrod;
+  grid-area: contact;
+}
+
+.footer.items{
+  grid-area: footer;
 }

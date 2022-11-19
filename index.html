@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset/reset.css">
-    <link rel="stylesheet" href="./css/reset/normalize.css">
-    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/reset/normalize.css"> 
     <link rel="stylesheet" href="./css/main/main.css">
-    <link rel="stylesheet" href="./css/form/form.css">
+    <link rel="stylesheet" href="./css/header/header.css">
+    <link rel="stylesheet" href="./css/form/form.css"> 
     <link rel="stylesheet" href="./css/contact/contact.css">
-    <link rel="stylesheet" href="./css/about/about.css">
+    <link rel="stylesheet" href="./css/about/about.css"> 
     <link rel="stylesheet" href="./css/form-contact/form-contact.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="stylesheet" href="./style.css">
@@ -19,8 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet"/>
     <title>E-comerse</title>
   </head>
-  <body class="container">
-    <header class="encabezado">
+  <body class="container items">
+    <header class="encabezado items">
       <div class="encabezado__container">
         <div class="encabezado__logo__container">
           <div class="encabezado__logo">
@@ -45,103 +45,139 @@
           <a href="#"><img class="lupa" src="/images/lupa-img.png" alt="search icon image"></a>
         </div>
     </header> 
-    <section class="banner">
-      <div class="banner__information">
-        <h1>Febrero Promocional</h1>
-        <p>Productos seleccionados con 33% de descuento</p>
+    <section class="hero__image">
+      <div class="hero__text">
+        <h1 class="hero__title">Febrero Promocional</h1>
+        <p class="hero__information">Productos seleccionados con 33% de descuento</p>
         <button class="generic__btn btn__generic">Ver Consolas</button>
       </div>
     </section>
-    <section class="products">
-      <div class="productos__titulo">
+    <section class="products items">
+      <div class="products__titulo">
         <h3>Star Wars</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
+        <div class="products__all">
+          <h2>Ver todo</h2>
+          <button class="products__btn"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></button>
+        </div>
       </div>
-      <div class="producto">
-        <img src="./images/1.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
+      <div class="product__container">
+        <div class="product__information">
+          <img class="product__image" src="./images/1.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/2.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/3.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/4.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div> 
       </div>
-      <div class="producto">
-        <img src="./images/2.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/3.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/4.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="titulo">
+      <div class="products__titulo">
         <h3>Consolas</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
+        <div class="products__all">
+          <h2>Ver todo</h2>
+          <button class="products__btn"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></button>
+        </div>
       </div>
-      <div class="producto">
-        <img src="./images/5.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
+      <div class="product__container"> 
+        <div class="product__information">
+          <img class="product__image" src="./images/5.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/6.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/7.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/8.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
       </div>
-      <div class="producto">
-        <img src="./images/6.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/7.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/8.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="titulo">
+      <div class="products__titulo">
         <h3>Diversos</h3>
-        <h2>Ver todo</h2>
-        <img src="./images/Vector.png" alt="imagen de flecha">
+        <div class="products__all">
+          <h2>Ver todo</h2>
+          <button class="products__btn"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></button>
+        </div>
       </div>
-      <div class="producto">
-        <img src="./images/9.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p></p>
-      </div>
-      <div class="producto">
-        <img src="./images/10.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/11.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
-      <div class="producto">
-        <img src="./images/12.png" alt="imagen de articulo" class="muestra">
-        <h3>Producto XYZ</h3>
-        <p>$60</p>
-        <p>Ver producto</p>
-      </div>
+      <div class="product__container">
+        <div class="product__information">
+          <img class="product__image" src="./images/9.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/10.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/11.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+        <div class="product__information">
+          <img class="product__image" src="./images/12.png" class="product"></img>
+          <div>
+            <h3>Producto XYZ</h3>
+            <p>$60</p>
+            <p class="open__product">Ver producto</p>
+          </div>
+        </div>
+      </div> 
     </section>
-    <section class="contact">
+    <section class="contact items">
       <div class="contacto__container">
         <section class="about">
           <div class="about__title__container">
@@ -180,7 +216,7 @@
         </fieldset>
       </div>
     </section> 
-    <section class="footer">
+    <section class="footer items">
       <div class="footer__rodape">
         <p class="footer__content item__1">Developed by Jairo Orozco</p>
         <p class="footer__content item__2"> 2022</p>
