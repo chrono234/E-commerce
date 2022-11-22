@@ -1,3 +1,8 @@
+.contacto__container{
+  background-color: #eaf2fd;
+}
+
+
 @media only screen and (min-width: 768px) {
   .contacto__container {
     display: flex;

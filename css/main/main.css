@@ -4,7 +4,9 @@
 }
 
 .container {
-  /* background: darkseagreen; */
   font-family: "Raleway", "sans-serif";
   width: 100%;
-}
+  background-color: #e5e5e5;
+}  
+
+
