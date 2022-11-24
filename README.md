@@ -1,5 +1,5 @@
 
-## E-comerse
+## E-commerce
 
 This is an online store and I want to demostrate my knowledge so far.
 
