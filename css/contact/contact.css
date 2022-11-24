@@ -7,7 +7,6 @@
   .contacto__container {
     display: flex;
     margin: 3rem 0 1rem 0;
-    width: calc(100vw - 1rem);
     overflow: hidden;
   }
 }

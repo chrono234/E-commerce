@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+.generic__btn.btn__generic.gen{
+  width: 9rem;
+  }
+
 .open__product{
   font-size: 14px;
   font-weight: bold;
@@ -51,8 +55,15 @@
 } 
 
 @media only screen and (min-width: 992px) {
+  .encabezado__logo__img.pad{
+    margin: 0;
+  }
+  .generic__btn.btn__generic.gen{
+    margin-left: 4rem;
+    }
+
   .product__container{
-    width: 93.5%;
+    width: auto;
   }
 
 }

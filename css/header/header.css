@@ -44,6 +44,7 @@
   font-size: 2.3vw;
   overflow: hidden;
   width: 11rem;
+  cursor: pointer;
 }
 
 .box.menu--admin{
@@ -51,9 +52,16 @@
 }
 
 .box__titulo {
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem 0 1rem;  
   color: #2a7ae4;
   white-space: nowrap;
+  cursor: pointer;
+}
+
+.box__titulo:hover{
+  background: #2a7ae4;
+  color: #ffffff;
+  transition: 0.5s;
 }
 
 .lupa {
@@ -150,7 +158,7 @@
 
 @media only screen and (min-width: 992px) {
   .encabezado__container {
-    margin-left: 6rem;
+    margin-left: 5rem;
   }
 
   .input__search__container {
@@ -166,7 +174,8 @@
   }
 
   .box {
-    margin-left: 6rem;
+
+    margin-left: 4.5rem;
   }
 
   .box.loggin{

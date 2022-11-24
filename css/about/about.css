@@ -42,8 +42,7 @@
 
 @media only screen and (min-width: 768px) {
   .about {
-    display: inline-block;
-    margin: 1rem;
+    margin: 0 3.5rem;
   }
 
   .about__title__container {
@@ -76,7 +75,8 @@
   }
 
   .about__title__container {
-    margin: 0 4rem 0 0;
+    position: relative;
+    margin: 0 auto;
   }
 
   .about__content__container {
