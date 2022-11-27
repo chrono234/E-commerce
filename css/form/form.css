@@ -1,9 +1,15 @@
+
 .form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
+  
+}
+
+.form.main{
+  height: 39.5vh;
+  margin-bottom: 0.5rem;
 }
 
 .form__title__container {
@@ -11,8 +17,8 @@
 }
 
 .form__title {
-  font-size: 22px;
-  margin: 2rem 11.5rem 1rem 0;
+  font-size: 21px;
+  margin: 2rem 0 1em 0;
   white-space: nowrap;
   color: #464646;
   font-weight: bold;
@@ -69,20 +75,52 @@
   font-size: 14px;
 }
 
+.btn__container.main{
+  display: flex;
+  justify-content: center;
+}
+
+.generic__btn.main{
+  width: 8rem;
+}
+
+.form__title.main {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 18px;
+}
+
+.form__container.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.input__container.main,
+.textarea__container.main   {
+  display: inline-block;
+  width: 15rem;
+  min-width: calc(55vw - 2rem);
+  min-width: calc(55% - 2rem);
+}
+
+@media only screen and (min-width: 768px) {
+  .form__container.contact.main{
+    width: calc(100vw - 18rem);
+  }
+}
+
 @media only screen and (min-width: 992px) {
-  .form {
-    overflow: hidden;
+
+  .form.main{
+    height: 41.5vh;
+    margin-bottom: 0.5rem;
   }
 
   .form__title__container {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .form__title__container.login{
-    margin-left: 3.2rem;
-    
   }
 
   .form__title {

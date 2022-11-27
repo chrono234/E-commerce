@@ -1,0 +1,44 @@
+.hero__image {
+  align-items: flex-end;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.204)),
+    url("../../images/banner.png") center / cover no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  height: 32vh;
+}
+
+.hero__text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+  margin-left: 1rem;
+}
+
+.hero__title {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 22px;
+}
+
+.hero__information {
+  margin: 0 0 0.4rem 0;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 52px;
+  }
+
+  .hero__information {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+.hero__image{
+  height: 21rem;
+}
+.hero__text{
+  margin-left: 5rem;
+}
+}

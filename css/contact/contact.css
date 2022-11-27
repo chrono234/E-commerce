@@ -1,5 +1,6 @@
 .contacto__container{
-  background-color: #eaf2fd;
+  background: #eaf2fd;
+  grid-area: contact;
 }
 
 
@@ -13,8 +14,8 @@
 
 @media only screen and (min-width: 992px) {
   .contacto__container {
-    align-items: flex-start;
-    justify-content: center;
-    width: auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
   }
 }
