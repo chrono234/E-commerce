@@ -1,9 +1,9 @@
 
 ## E-commerce
 
-This is an online store and I want to demostrate my knowledge so far.
+This is a project to create a test online store and to practice the CRUD learned in alura resently.
 
-The technologies used:
+The technologies will use:
 
 CSS BEM-standart,
 HTML5,
