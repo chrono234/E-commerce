@@ -7,7 +7,10 @@
   flex-direction: column;
   background-color: #ffffff;
   height: 70px;
-  grid-area: footer;
+}
+
+.footer__rodape.add{
+  margin-bottom: 1rem;
 }
 
 .footer__content.item__1 {
