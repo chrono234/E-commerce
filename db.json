@@ -1,165 +1,165 @@
 {
-    "producto": [
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/1.png",
-            "price": "100,00",
-            "id": "1",
-            "alt": "",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/2.png",
-            "price": "60,00",
-            "id": "2",
-            "alt": "prod",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/3.png",
-            "price": "60,00",
-            "id": "2",
-            "alt": "prod",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
+  "producto": [
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/1.png",
+      "price": "100,00",
+      "id": "1",
+      "alt": "",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/2.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/3.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
 
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/4.png",
-            "price": "60,00",
-            "id": "2",
-            "alt": "prod",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/especial%201.png",
-            "price": "60,00",
-            "id": "2",
-            "alt": "prod",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
-        {
-            "name": "producto x",
-            "imageURL":"https://chrono234.github.io/E-commerce/images/especial%202.png",
-            "price": "60,00",
-            "id": "2",
-            "alt": "prod",
-            "section":"Star Wars",
-            "ver_producto":"producto-x",
-            "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-        },
-        {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/5.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/6.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/7.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/8.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/especial%203.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/especial%204.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/9.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/10.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/especial%205.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      },
-      {
-          "name": "producto x",
-          "imageURL":"https://chrono234.github.io/E-commerce/images/especial%206.png",
-          "price": "60,00",
-          "id": "2",
-          "alt": "prod",
-          "section":"Star Wars",
-          "ver_producto":"producto-x",
-          "description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
-      }
-    ]
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/4.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-1.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-2.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/5.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/6.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/7.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/8.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-3.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-4.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/9.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "https://chrono234.github.io/E-commerce/images/10.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-5.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    },
+    {
+      "name": "producto x",
+      "imageURL": "http://127.0.0.1:5502/images/especial-6.png",
+      "price": "60,00",
+      "id": "2",
+      "alt": "prod",
+      "section": "Star Wars",
+      "ver_producto": "producto-x",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+    }
+  ]
 }
