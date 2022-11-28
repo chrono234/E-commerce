@@ -22,11 +22,31 @@ const producto = document.querySelector("[datos-productos]");
 const consola = document.querySelector("[datos-consola]");
 const diversos = document.querySelector("[datos-diversos]");
 
+// const render = async() =>{
+//   try{
+//     const listaProductos = await productoServices.listaProductos();
+//     listaProductos.forEach(elemento => {
+//       producto.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageURL, elemento.ver_producto));
+//     });
+//   }
+//   catch(error){
+//     console.log(error);
+//   };
+// };
+
+// render()
+
 const render = async() =>{
   try{
     const listaProductos = await productoServices.listaProductos();
     listaProductos.forEach(elemento => {
+      let max = 18;
+      (max < 5) && (max = 5) 
       producto.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageURL, elemento.ver_producto));
+      (max < 11) && (max = 11)
+      consola.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageURL, elemento.ver_producto));
+      (max < 17) && (max = 17)
+      diversos.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageURL, elemento.ver_producto));
     });
   }
   catch(error){
@@ -35,5 +55,3 @@ const render = async() =>{
 };
 
 render()
-
-
