@@ -1,0 +1,19 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "e-commerce-store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrono234/E-comers.git"
+  },
+  "author": "Jairo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrono234/E-comers/issues"
+  },
+  "homepage": "https://github.com/chrono234/E-comers#readme"
+}
