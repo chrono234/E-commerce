@@ -1,6 +1,7 @@
 import { productoServices } from "../services/productos-servicios.js";
 
 const nuevoProducto = (name, price, imageURL, id) => {
+  uuid.v4()
   console.log(id);
   const card = document.createElement("div");
   const contenido = 
@@ -9,7 +10,7 @@ const nuevoProducto = (name, price, imageURL, id) => {
       <img class="product__image" src="${imageURL}" alt="imagen de producto">
       <div class="icon-container"></div>
       <div>
-      <button class="simple-button simple-button--delete" type="button" id = "${uuid.v4()}"></button>
+      <button class="simple-button simple-button--delete" type="button" id = "${id}"></button>
       </a>
         <a href="#"><img class="item2" src="images/pen icon.png" alt="pen icon"></a> 
         <a href="${imageURL}" target ="_blank"><h3 class="tag">${name}</h3></a>
