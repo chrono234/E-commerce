@@ -70,6 +70,11 @@
   color: #464646;
 }
 
+.tag:hover{
+  color: #833ef1;
+  font-weight: 600;
+}
+
 .price {
   font-weight: bold;
   font-size: 16px;
@@ -154,6 +159,7 @@
   .encabezado__logo__img.pad{
     margin: 0.5rem 0 0 0rem;
   }
+  
   .generic__btn.btn__generic.gen{
     margin-left: 4rem;
     }

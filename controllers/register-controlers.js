@@ -6,7 +6,8 @@ form.addEventListener("submit", (evento) => {
   evento.preventDefault();
   const email = document.querySelector("[data-email]").value;
   const password = document.querySelector("[data-password]").value;
-  productoServices.crearCliente(email, password).then((respuesta) => {
-    console.log(respuesta);
+
+  productoServices.crearCliente(email, password).then(() => {
+    window.location.href = "https://chrono234.github.io/E-commerce/";
     }).catch((err) => console.log(err));
 });
