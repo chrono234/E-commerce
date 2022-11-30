@@ -10,9 +10,8 @@ const nuevoProducto = (name, price, imageURL, id) => {
       <img class="product__image" src="${imageURL}" alt="imagen de producto">
       <div class="icon-container"></div>
       <div>
-      <button class="simple-button simple-button--delete" type="button" id = "${id}"></button>
-      </a>
-        <a href="#"><img class="item2" src="images/pen icon.png" alt="pen icon"></a> 
+        <button class="button__delete" type="button" id = "${id}"></button>
+        <button class="button__edit" type="button" id = "${id}"></button>
         <a href="${imageURL}" target ="_blank"><h3 class="tag">${name}</h3></a>
         <p class="price">${price}</p>
         <p class="open__product">${id}</p>
