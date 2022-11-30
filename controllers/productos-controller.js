@@ -1,7 +1,6 @@
 import { productoServices } from "../services/productos-servicios.js";
 
 const nuevoProducto = (name, price, imageURL, id) => {
-  uuid.v4()
   console.log(id);
   const card = document.createElement("div");
   const contenido = 
@@ -53,8 +52,3 @@ productoServices.listaProductos().then((data) => {
       producto.appendChild(nuevaLinea);
     });
   }).catch((error) => console.log(error));
-
-
-const eliminarProducto = () => {
-  console.log("elimina a" + id);
-}
