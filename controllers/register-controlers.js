@@ -9,5 +9,5 @@ form.addEventListener("submit", (evento) => {
 
   productoServices.crearCliente(email, password).then(() => {
     window.location.href = "https://chrono234.github.io/E-commerce/";
-    }).catch((err) => console.log(err));
+    }).catch((err) => alert("hubo un error"));
 });

@@ -1,9 +1,9 @@
 //GET
-const listaProductos = () => fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json());
+const listaProductos = () => fetch(`http://localhost:3000/producto`).then((respuesta) => respuesta.json());
 
 
 const crearCliente = (nombre, email) => {
-  return fetch(`http://localhost:3000/producto`, {
+  return fetch(`http://localhost:3000/perfil`, {
 
     method: "POST",
     headers: {
@@ -13,7 +13,7 @@ const crearCliente = (nombre, email) => {
   });
 };
 
-const eliminarCliente = (id) => {
+const eliminarProducto = (id) => {
   return fetch(`http://localhost:3000/producto/${id}`, {
     method: "DELETE",
   });
@@ -26,7 +26,7 @@ const annadirProducto = (id) => {
   export const productoServices = {
     listaProductos,
     crearCliente,
-    eliminarCliente,
+    eliminarProducto,
     annadirProducto
   };
 
