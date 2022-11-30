@@ -5,9 +5,8 @@
       "imageURL": "https://chrono234.github.io/E-commerce/images/1.png",
       "price": "100,00",
       "id": "1",
-      "alt": "",
-      "password": "pass",
-      "email": "mail",
+      "alt": "prod",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -18,8 +17,7 @@
       "price": "60,00",
       "id": "2",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -30,8 +28,7 @@
       "price": "60,00",
       "id": "3",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -42,8 +39,7 @@
       "price": "60,00",
       "id": "4",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -54,8 +50,7 @@
       "price": "60,00",
       "id": "5",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -66,8 +61,7 @@
       "price": "60,00",
       "id": "6",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -78,8 +72,7 @@
       "price": "60,00",
       "id": "7",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -90,8 +83,7 @@
       "price": "60,00",
       "id": "8",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -102,8 +94,7 @@
       "price": "60,00",
       "id": "9",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -114,8 +105,7 @@
       "price": "60,00",
       "id": "10",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -126,8 +116,7 @@
       "price": "60,00",
       "id": "11",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -138,8 +127,7 @@
       "price": "60,00",
       "id": "12",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -150,8 +138,7 @@
       "price": "60,00",
       "id": "13",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -162,8 +149,7 @@
       "price": "60,00",
       "id": "14",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -174,8 +160,7 @@
       "price": "60,00",
       "id": "15",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -186,8 +171,7 @@
       "price": "60,00",
       "id": "16",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -198,8 +182,7 @@
       "price": "60,00",
       "id": "17",
       "alt": "prod",
-      "password": "pass",
-      "email": "mail",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
@@ -210,8 +193,7 @@
       "price": "60,00",
       "id": "18",
       "alt": "prod",
-      "password": "password",
-      "email": "email",
+      "categoría":"juguetes",
       "section": "Star Wars",
       "ver_producto": "producto-x",
       "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"

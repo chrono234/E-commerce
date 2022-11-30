@@ -10,7 +10,7 @@ const nuevoProducto = (name, price, imageURL, id) => {
       <div class="icon-container"></div>
       <div>
         <button class="button__delete" type="button" id = "${id}"></button>
-        <button class="button__edit" type="button" id = "${id}"></button>
+        <a href="https://chrono234.github.io/E-commerce/add-product-form.html" target="_blank" rel="noopener noreferrer" ><button class="button__edit" type="button" href="https://chrono234.github.io/E-commerce/add-product-form.html?textarea="></button></a>
         <a href="${imageURL}" target ="_blank"><h3 class="tag">${name}</h3></a>
         <p class="price">${price}</p>
         <p class="open__product">${id}</p>

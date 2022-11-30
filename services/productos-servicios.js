@@ -19,10 +19,15 @@ const eliminarCliente = (id) => {
   });
 };
 
+const annadirProducto = (id) => {
+  return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json());
+  }
+
   export const productoServices = {
     listaProductos,
     crearCliente,
     eliminarCliente,
+    annadirProducto
   };
 
 
