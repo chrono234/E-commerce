@@ -11,3 +11,4 @@ form.addEventListener("submit", (evento) => {
     window.location.href = "https://chrono234.github.io/E-commerce/";
     }).catch((err) => alert("hubo un error"));
 });
+ 
