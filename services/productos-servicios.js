@@ -34,11 +34,12 @@ const eliminarProducto = (id) => {
   return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json());
   }
 
-// annadirProducto,
+
   export const productoServices = {
     listaProductos,
     crearCliente,
     crearProducto,
+    actualizarProducto,
     eliminarProducto
   };
   
