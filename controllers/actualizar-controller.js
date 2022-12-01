@@ -30,9 +30,9 @@ formUpdate.addEventListener("submit", (evento) => {
   const url = new URL(window.location);
   const id = url.searchParams.get("id");
 
-  const imageURL = document.querySelector("[url-producto]");
-  const price = document.querySelector("[precio-producto]");
-  const name = document.querySelector("[nombre-producto]");
-  const description = document.querySelector("[descripcion-producto]");
+  const imageURL = document.querySelector("[url-producto]").value
+  const price = document.querySelector("[precio-producto]").value
+  const name = document.querySelector("[nombre-producto]").value
+  const description = document.querySelector("[descripcion-producto]").value
   productoServices.actualizarProducto(imageURL ,name , price , description, id)
 });

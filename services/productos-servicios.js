@@ -34,13 +34,13 @@ const eliminarProducto = (id) => {
   return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => respuesta.json());
   };
 
-  const actualizarProducto = (imageURL ,name, price, descripcion, id ) => {
+  const actualizarProducto = (imageURL ,name, price, description, id ) => {
     return fetch(`http://localhost:3000/producto/${id}`, {
       method: "PUT",
       headers: {
-        "content-type":"application/json"
+        "Content-Type": "application/json",
       },
-      body:JSON.stringify({imageURL, name, price, descripcion})
+      body:JSON.stringify({imageURL, name, price, description})
     })
     .then(respuesta => console.log(respuesta))
     .catch(err => console.log(err))
@@ -53,7 +53,6 @@ const eliminarProducto = (id) => {
     detalleProducto,
     actualizarProducto,
     eliminarProducto,
-    actualizarProducto
   };
   
   

@@ -1,15 +1,11 @@
 {
   "producto": [
     {
-      "name": "producto x",
       "imageURL": "https://chrono234.github.io/E-commerce/images/1.png",
+      "name": "Taza",
       "price": "100,00",
-      "id": "1",
-      "alt": "prod",
-      "category": "juguetes",
-      "section": "Star Wars",
-      "ver_producto": "producto-x",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?",
+      "id": "1"
     },
     {
       "name": "producto x",
@@ -200,8 +196,8 @@
     },
     {
       "imageURL": "https://i.pinimg.com/564x/f6/d2/10/f6d210602e806fb4aef1daabe01cd6c4.jpg",
+      "name": "Poster Goku ",
       "price": "$100",
-      "name": "poster",
       "description": "",
       "id": "s8_TSs2"
     }
