@@ -2,42 +2,37 @@ import { productoServices } from "../services/productos-servicios.js";
 
 const formUpdate = document.querySelector("[form-update]");
 
-const obtenerInformacionProducto = async () => {
-  const url = new URL(window.location);
-  const id = url.searchParams.get("id");
+const obtenerInformacionProducto =  () => {
+const url = new URL(window.location);
+const id = url.searchParams.get("id");
 
   if (id == null) {
-    // window.location.href = "/screens/error.html"
+    alert("upps hubo un error")
   }
-  const precio = document.querySelector("[precio-producto]");
-  const nombreProducto = document.querySelector("[nombre-producto]");
 
-  try {
-    const perfil = await productoServices.actualizarProducto(id);
+  const imageURL = document.querySelector("[url-producto]");
+  const price = document.querySelector("[precio-producto]");
+  const name = document.querySelector("[nombre-producto]");
+  const description = document.querySelector("[descripcion-producto]");
 
-    if (perfil.nombreProducto && perfil.email) {
-      nombre.value = perfil.nombre;
-      email.value = perfil.email;
-    } else {
-      throw new Error();
-    }
-  } catch (error) {
-    // window.location.href = "/screens/error.html";
-    console.log(error);
-  }
+  productoServices.detalleProducto(id).then((producto) => {
+    imageURL.value = producto.imageURL
+    price.value = producto.price
+    name.value = producto.name
+    description.value = producto.description
+  });
 };
 
 obtenerInformacionProducto();
 
 formUpdate.addEventListener("submit", (evento) => {
-  evento.preventDefault();
+  evento.preventDefault()
   const url = new URL(window.location);
   const id = url.searchParams.get("id");
-  const precio = document.querySelector("[precio-producto]").value;
-  const nombreProducto = document.querySelector("[nombre-producto]").value;
-  productoServices
-    .actualizarCliente(precio, nombreProducto, descripcion)
-    .then(() => {
-      window.location.href = "/screens/edicion_concluida.html";
-    });
+
+  const imageURL = document.querySelector("[url-producto]");
+  const price = document.querySelector("[precio-producto]");
+  const name = document.querySelector("[nombre-producto]");
+  const description = document.querySelector("[descripcion-producto]");
+  productoServices.actualizarProducto(imageURL ,name , price , description, id)
 });

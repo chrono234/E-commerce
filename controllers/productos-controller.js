@@ -10,7 +10,7 @@ const nuevoProducto = (name, price, imageURL, id) => {
       <div class="icon-container"></div>
       <div>
         <button class="button__delete" type="button" id ="${id}"></button>
-        <a href="https://chrono234.github.io/E-commerce/actualizar-producto.html?id=${id}" target="_blank" rel="noopener noreferrer"><button class="button__edit" type="button"></button></a>
+        <a href="../actualizar-producto.html?id=${id}" target="_blank" rel="noopener noreferrer"><button class="button__edit" type="button"></button></a>
         <a href="${imageURL}" target ="_blank"><h3 class="tag">${name}</h3></a>
         <p class="price">${price}</p>
         <p class="open__product">${id}</p>
@@ -29,22 +29,7 @@ const nuevoProducto = (name, price, imageURL, id) => {
   return card;
 };
 
-
 const producto = document.querySelector("[datos-producto]");
-
-// const render = async() =>{
-//   try{
-//     const listaProductos = await productoServices.listaProductos();
-//     listaProductos.forEach(elemento => {
-//       producto.appendChild(nuevoProducto(elemento.name, elemento.price, elemento.imageURL, elemento.id));
-//     });
-//   }
-//   catch(error){
-//     console.log(error);
-//   };
-// };
-
-// render()
 
 productoServices.listaProductos().then((data) => {
     data.forEach(({name, price, imageURL, id}) => {
