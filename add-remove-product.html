@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/about/about.css">
     <link rel="stylesheet" href="./css/form-contact/form-contact.css">
     <link rel="stylesheet" href="./css/add-remove-product-page/add-remove-product.css">
+    <link rel="stylesheet" href="./css/crud-test-styles/crud-test-styles.css">
     <link rel="stylesheet" href="./css/footer/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,11 +50,10 @@
         <h3>Todos los productos</h3>
         <a href="https://chrono234.github.io/E-commerce/add-product-form.html" target="_blank" rel="noopener noreferrer"><button class="generic__btn btn__generic gen">Agregar Producto</button></a>
       </div>
-      <div class="product__container add">
-        <div class="product__information">
+      <div class="product__container add" datos-producto>
+        <!--<div class="product__information">
           <img class="product__image" src="images/1.png" class="product"></img>
-          <div class="icon-container">
-        </div>
+          <div class="icon-container"></div>
           <div>
             <img class="item1" src="images/trashcan icon.png" alt="trashcan icon">
             <img class="item2" src="images/pen icon.png" alt="pen icon">
@@ -231,7 +231,7 @@
             <p class="price">$60</p>
             <p class="open__product">#1111111</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <section class="contact items">
@@ -279,7 +279,8 @@
         <p class="footer__content item__2"> 2022</p>
       </div>
     </section>
-      <script src="modules/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./controllers/productos-controller.js"></script>
   </body>
     </html>
 

@@ -47,14 +47,14 @@
       <div class="form__title__container">
         <h2 class="form__title main">Iniciar sesión</h2>
       </div>
-      <form class="form__container main">
+      <form class="form__container main" data-form>
         <div  class="input__container main">
-          <input class="input main__a" type="email">
-          <label for="url" class="input__label" >Escriba su correo electronico</label>
+          <input class="input main__a" type="email" data-email>
+          <label for="email" class="input__label" >Escriba su correo electronico</label>
         </div>
         <div  class="input__container main">
-          <input class="input main__b" type="text">
-          <label for="text" class="input__label">Escriba su contraseña</label>
+          <input class="input main__b" type="password" data-password>
+          <label for="password" class="input__label">Escriba su contraseña</label>
         </div>
         <div class="btn__container main">
           <button type="submit" class="generic__btn main">Entrar</button>
@@ -106,7 +106,8 @@
         <p class="footer__content item__2"> 2022</p>
       </div>
     </section>
-      <script src="modules/index.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script type="module" src="controllers/register-controllers.js"></script>
   </body>
     </html>
     

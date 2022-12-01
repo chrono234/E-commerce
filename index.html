@@ -51,7 +51,7 @@
       <div class="hero__text">
         <h1 class="hero__title">Febrero Promocional</h1>
         <p class="hero__information">Productos seleccionados con 33% de descuento</p>
-        <button class="generic__btn btn__generic">Ver Consolas</button>
+        <a href="#consolas"><button class="generic__btn btn__generic">Ver Consolas</button></a>
       </div>
     </section>
     <section class="products items">
@@ -62,8 +62,8 @@
           <button class="products__btn"><a href="https://chrono234.github.io/E-commerce/add-remove-product.html" target="_blank" rel="noopener noreferrer"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></a></button>
         </div>
       </div>
-      <div class="product__container" datos-productos>
-          <div class="product__information">
+      <div class="product__container">
+        <div class="product__information">
           <img class="product__image" src="./images/1.png" class="product"></img>
           <div>
             <h3 class="tag">Producto XYZ</h3>
@@ -112,14 +112,14 @@
           </div>
         </div>
       </div>
-      <div class="products__titulo">
+      <div class="products__titulo" id="consolas">
         <h3>Consolas</h3>
         <div class="products__all">
           <h2>Ver todo</h2>
           <button  class="products__btn"><a href="https://chrono234.github.io/E-commerce/add-remove-product.html" target="_blank" rel="noopener noreferrer"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></a></button>
         </div>
       </div>
-      <div class="product__container" datos-consola>
+      <div class="product__container">
         <div class="product__information">
           <img class="product__image" src="./images/5.png" class="product"></img>
           <div>
@@ -176,7 +176,7 @@
           <button  class="products__btn"><a href="https://chrono234.github.io/E-commerce/add-remove-product.html" target="_blank" rel="noopener noreferrer"><img class="flecha" src="./images/Vector.png" alt="imagen de flecha"></a></button>
         </div>
       </div>
-      <div class="product__container" datos-diversos>
+      <div class="product__container">
         <div class="product__information">
           <img class="product__image" src="./images/9.png" class="product"></img>
           <div>
@@ -272,6 +272,7 @@
         <p class="footer__content item__2"> 2022</p>
       </div>
     </section>
-      <script type="module" src="./controllers/productos-controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="./controllers/productos-controller.js"></script>
   </body>
     </html>
