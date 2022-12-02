@@ -1,22 +1,11 @@
 {
   "producto": [
     {
-      "imageURL": "https://chrono234.github.io/E-commerce/images/1.png",
-      "name": "Taza",
-      "price": "100,00",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?",
-      "id": "1"
-    },
-    {
-      "name": "producto x",
       "imageURL": "https://chrono234.github.io/E-commerce/images/2.png",
-      "price": "60,00",
-      "id": "2",
-      "alt": "prod",
-      "category": "juguetes",
-      "section": "Star Wars",
-      "ver_producto": "producto-x",
-      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?"
+      "name": "producto x",
+      "price": "$200",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint impedit, quisquam, beatae blanditiis aperiam porro laboriosam repudiandae deleniti minus esse ea? Aliquam quos nostrum odit earum molestiae error, aliquid tempore?",
+      "id": "2"
     },
     {
       "name": "producto x",
@@ -200,6 +189,48 @@
       "price": "$100",
       "description": "",
       "id": "s8_TSs2"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/ff/c4/14/ffc4145a70a4b3bca8fe2e2692a2403c.jpg",
+      "price": "$50",
+      "name": "Miroku",
+      "description": "Monge Miroku",
+      "id": "_-Xh01K"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/0e/4f/14/0e4f148e3328057c3e6a1857f962925e.jpg",
+      "price": "$50",
+      "name": "Sango",
+      "description": "Figura de Acción",
+      "id": "31Xyg30"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/97/d9/4f/97d94fd338844ee17674ebff48767938.jpg",
+      "price": "$60",
+      "name": "Vincent",
+      "description": "Action figure",
+      "id": "n2DT6HF"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/23/e2/6f/23e26f482389f3e2a4f52493b98ffab1.jpg",
+      "name": "Mikasa Ackerman",
+      "price": "$60",
+      "description": "Figura de acción",
+      "id": "kfb6i6C"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/a3/40/7c/a3407cff9807a9b5df65dddba73f3f92.jpg",
+      "name": "kimetsu no Yaiba",
+      "price": "$60",
+      "description": "Figura de acción",
+      "id": "28ukghR"
+    },
+    {
+      "imageURL": "https://i.pinimg.com/564x/83/5b/7d/835b7d2865b928cb5243ed66c147333d.jpg",
+      "price": "$50",
+      "name": "Final Fantasy toy",
+      "description": "Normal toy",
+      "id": "ZIc61Nq"
     }
   ],
   "perfil": [
@@ -212,16 +243,6 @@
       "nombre": "lisa@gmail.com",
       "email": "lisasu",
       "id": "a5a406f2-d16a-44de-9729-bfc4e984ec56"
-    },
-    {
-      "nombre": "fdfddsf@gmail-com",
-      "email": "fdsfsdfds",
-      "id": "2060b98e-eb00-4993-abf1-52383f12551c"
-    },
-    {
-      "email": "jairoor01@aol.com",
-      "password": "figoreti1",
-      "id": "1e4aa4cc-32ee-47e6-9857-0e1dea41cd39"
     }
   ]
 }

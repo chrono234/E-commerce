@@ -7,7 +7,7 @@ const url = new URL(window.location);
 const id = url.searchParams.get("id");
 
   if (id == null) {
-    alert("upps hubo un error")
+    window.location.href = "../add-remove-product.html"
   }
 
   const imageURL = document.querySelector("[url-producto]");
