@@ -1,16 +1,31 @@
 
 ## E-commerce
 
+## Description 📑
+
 This is a project to create a test online store and to practice the CRUD learned in alura resently.
 
-The technologies will use:
-
-CSS BEM-standart,
-HTML5,
-Javascript,
-Git
+![Project](https://raw.githubusercontent.com/chrono234/E-commerce/main/images/readme1.png)
 
 
+## 🛠 Skills
+* HTML5
+* CSS BEM-standart,
+* Javascript,
+* Git
+
+![products](https://raw.githubusercontent.com/chrono234/E-commerce/main/images/readme2.png)
+
+![login](https://raw.githubusercontent.com/chrono234/E-commerce/main/images/readme0.png)
+
+
+
+ ## ¿Why did I learned? 🙇🏻 
+
+Use CRUD, Create Read Update Delete in a real project
+Use of CSS-BEM-standart
+Take a figma design to code.
+Etc..
 
 ## Acknowledgements
 
@@ -21,26 +36,9 @@ Git
  - [Alura-LATAM](https://www.aluracursos.com/)
 
 
-# Authors
+# Author
 
-- [chrono234](https://github.com/chrono234)
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at jaiorozco@hotmail.com
-
-
-## Acknowledgements
-
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
-## Authors
-
-- [chrono234](https://github.com/chrono234)
+- [Jairo](https://github.com/chrono234)
 
 
 ## Documentation
