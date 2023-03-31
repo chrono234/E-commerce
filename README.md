@@ -3,7 +3,7 @@
 
 ## Description 📑
 
-This is a project to create a test online store and to practice the CRUD learned in alura resently.
+This is a project to create a test online store and to practice the CRUD.
 
 ![Project](https://raw.githubusercontent.com/chrono234/E-commerce/main/images/readme1.png)
 
